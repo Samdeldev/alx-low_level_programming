@@ -1,13 +1,10 @@
-#include <stdio.h>
-#include <string.h>
 /**
- * main - This is the main function
- * Return: Value return should 0
+ *main - entry point
+ *
+ *Return: 0 after printing the function
  */
-int main(void)    
+int main(void)
 {
-    char alx[] = "\"programming is like building a multilingual puzzle";
-
-    puts(alx);
-    return (0);
+puts("\"Programming is like building a multilingua puzzle");
+return(0);
 }
