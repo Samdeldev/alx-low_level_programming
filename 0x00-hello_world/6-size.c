@@ -4,7 +4,7 @@
 #include <float.h>
 /**
  * main - entry point
- * Return: Always 0 (Success)
+ * Return: it must be a value for 0
  */
 int main(void)
 {
