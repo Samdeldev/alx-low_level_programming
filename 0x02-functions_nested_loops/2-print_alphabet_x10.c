@@ -1,24 +1,25 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
- * print_alphabet_x10 - Make alphabet x10 times
- *
- * Return: void
- */
+ * print_alphabet_x10 - prints 10 times the alphabet
+ * followed by a new line
+*/
+
 void print_alphabet_x10(void)
 {
-	char c;
-	int i = 0;
+	char a;
+	int i;
 
-	while (i <= 9)
+	i = 0;
+
+	while (i < 10)
 	{
-		for (c = 'a'; c <= 'z'; c++)
+		a = 'a';
+		while (a <= 'z')
 		{
-			_putchar(c);
+			_putchar(a);
+			a++;
 		}
-
 		_putchar('\n');
-
 		i++;
 	}
 }
